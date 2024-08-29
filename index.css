@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('Pic-19.jpeg');
+    background-size: auto;
+    color: #fff;
+}
+header{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    border-bottom: 2px solid #ff6f61;
+}
+.navbar h1{
+    margin: 0;
+    font-size: 36px;
+    color: #ff1500;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: #ff6f61;
+}
+main{
+    padding: 40px;
+}
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+    display:contents;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+section h2, section h3{
+    color: #be2d20;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+section p{
+    line-height: 1.6;
+    font-size: 16px;
+}
+section .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff1500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+section .btn:hover{
+    background-color: #e65c50;
+}
+.Rental-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.Rental{
+    width: calc(50% - 20px);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.Rental img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.Rental h4{
+    color: #b91506;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.Rental p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.testimonials .testimonials{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.testimonials p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+.testimonials h5{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fa301e;
+    text-align: right;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 2px solid #ff6f61;
+    color: white;
+}

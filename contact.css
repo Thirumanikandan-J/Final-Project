@@ -1,0 +1,108 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background: url('Pic-29.jpg');
+    background-size: auto;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+header h1{
+    color: #ff3333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    font-size: 2.5em;
+}
+header img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.navbar nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.navbar nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar nav ul li a{
+    color: #ff3333;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+.navbar nav ul li a:hover{
+    color: #ffffff;
+}
+main{
+    padding: 50px 20px;
+}
+section.contact{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+section.contact h2{
+    color: #ff3333;
+    margin-bottom: 0px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+section.contact p{
+    color: #e0e0e0;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+section.contact form{
+    margin: 30px 0;
+}
+section.contact input[type="text"],
+section.contact input[type="email"],
+section.contact textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(216, 197, 197, 0.1);
+    color: #ffffff;
+    font-size: 1.1em;
+}
+section.contact button[type="submit"]{
+    background: #ff3333;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+section.contact button[type="submit"]:hover{
+    background: #e62e2e;
+}
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+footer p{
+    margin: 0;
+    font-size: 1em;
+}

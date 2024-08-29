@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    background: url('Pic-21.jfif'); 
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+header{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+header h1{
+    color: #ff3333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    font-size: 2.5em;
+}
+header img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.navbar nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.navbar nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+.navbar nav ul li a{
+    color: #ff3333;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+.navbar nav ul li a:hover{
+    color: #ffffff;
+}
+main{
+    padding: 50px 20px;
+}
+section{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+h2, h3{
+    color: #ff3333;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+p{
+    color: #e0e0e0;
+    line-height: 1.6em;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3333;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #cc0000;
+}
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.service-cards .service-cards{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.service-cards h4{
+    color: #ff3333;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+footer p{
+    margin: 0;
+    font-size: 1em;
+}
